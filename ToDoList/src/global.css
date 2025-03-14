@@ -1,0 +1,32 @@
+:root {
+  --gray-700: #0d0d0d;
+  --gray-600: #1A1A1A;
+  --gray-500: #262626;
+  --gray-300: #808080;
+  --gray-100: #f2f2f2;
+
+  --blue: #4EA8DE;
+  --blue-dark: #1e6f9f;
+  max-width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--gray-600);
+  color: var(--gray-100);
+  -webkit-font-smoothing: antialiased;
+}
+
+body,
+input,
+textarea,
+button {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}

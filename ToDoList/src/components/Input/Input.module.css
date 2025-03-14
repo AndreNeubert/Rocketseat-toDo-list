@@ -1,0 +1,15 @@
+.container {
+  border-radius: 8px;
+  border: 1px solid var(--gray-700);
+  
+  background-color: var(--gray-500);
+  margin-right: 0.5rem;
+  padding: 1rem;
+  width: 100%;
+
+  line-height: 140%;
+}
+
+.container::placeholder {
+  color: var(--gray-300)
+}
