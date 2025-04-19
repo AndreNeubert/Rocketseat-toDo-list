@@ -1,6 +1,6 @@
 import styles from './Header.module.css'
 
-function Header() {
+export function Header() {
 
 return (
   <header className={styles.container}>
@@ -8,5 +8,3 @@ return (
   </header>
 );
 } 
-
-export default Header;

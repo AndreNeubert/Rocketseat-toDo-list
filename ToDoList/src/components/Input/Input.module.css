@@ -13,3 +13,8 @@
 .container::placeholder {
   color: var(--gray-300)
 }
+
+.container:focus {
+  border-color: var(--purple-dark);
+  color: var(--gray-300);
+}

@@ -1,11 +1,18 @@
-import styles from './Input.module.css'
+import styles from "./Input.module.css";
 
-function Input() {
+export function Input({
+  ...rest
+}: React.DetailedHTMLProps<
+  React.InputHTMLAttributes<HTMLInputElement>,
+  HTMLInputElement
+>) {
+  return (
+    <input
+      className={styles.container}
+      placeholder="Adicione uma tarefa"
+      {...rest}
+    />
+  );
+}
 
-return (
-  <input className={styles.container}
-        placeholder='Adicione uma tarefa'/>   
-);
-} 
 
-export default Input;
